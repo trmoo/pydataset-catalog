@@ -1,0 +1,21 @@
+{
+  "name": "pydataset-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "PyDataset 데이터 도감 — 파이썬 연습용 데이터 757개를 주제별로 찾아보는 수업용 앱",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node test/run.mjs",
+    "check:syntax": "node tools/check-syntax.mjs",
+    "data": "python tools/build_data.py"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}

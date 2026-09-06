@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.vite/
+
+# 파이썬 도구 찌꺼기
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PyDataset 이 홈 폴더에 푸는 원본 자료는 저장소에 넣지 않는다.
+# (남의 저작물이고, npm run data 로 언제든 다시 읽을 수 있다)
+resources/
+*.csv
+
+# 편집기
+.vscode/
+.idea/
+*.swp
